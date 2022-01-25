@@ -11,7 +11,7 @@ import { createTheme } from '@mui/material/styles';
  */
 function App() {
   const [data, setData] = useState({});
-  let pokemonNames = ['bulbasaur', 'ivysaur','venusaur', 'charmander', 'charizard', 'weedle'];
+  let pokemonNames = ['bulbasaur', 'ivysaur','venusaur', 'charmander', 'charizard', 'weedle', 'clefairy', 'raticate', 'metapod', 'pidgeot'];
 
   const theme = createTheme({
     palette: {
